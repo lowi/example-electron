@@ -1,0 +1,27 @@
+{
+	"name": "Toast",
+	"description": "AST editor",
+	"version": "1.0.0",
+	"author": "Gus Hogg-Blake",
+	"private": true,
+	"dependencies": {
+		"electron-window-state": "~4.0.1",
+		"esprima": "^4.0.1",
+		"flowfs": "^3.11.0",
+		"svelte-view-engine": "^10.4.0"
+	},
+	"devDependencies": {
+		"chai": "~3.5.0",
+		"debug-menu": "~0.6.0",
+		"electron-reload": "^1.5.0",
+		"mocha": "^6.2.1",
+		"yargs": "~6.5.0",
+		"node-sass": "^4.12.0",
+		"rollup": "^1.25.0",
+		"rollup-plugin-commonjs": "^10.1.0",
+		"rollup-plugin-node-resolve": "^5.2.0",
+		"rollup-plugin-svelte": "^5.1.0",
+		"svelte": "^3.12.0"
+	},
+	"main": "./src/main.js"
+}
